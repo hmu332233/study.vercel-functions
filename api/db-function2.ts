@@ -10,7 +10,8 @@ export default async (request: VercelRequest, response: VercelResponse) => {
    // Use the client to return the name of the connected database.
 
 
-   const userWords = await client.db().collection('user_words').find().sort({ _id: -1 });
+   const modUserWords = await client.db().collection('user_words');
+   const userWords = await modUserWords.find().sort({ _id: -1 });
 
    response.status(200).json({ data: userWords });
 };
