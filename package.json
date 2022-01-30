@@ -1,0 +1,11 @@
+{
+  "name": "study.vercel-functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hmu332233/study.vercel-functions",
+  "author": "Minung Han <hmu332233@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/node": "^1.12.1"
+  }
+}
