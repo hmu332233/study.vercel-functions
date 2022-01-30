@@ -6,6 +6,7 @@
   "author": "Minung Han <hmu332233@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@vercel/node": "^1.12.1"
+    "@vercel/node": "^1.12.1",
+    "mongodb": "^4.3.1"
   }
 }
